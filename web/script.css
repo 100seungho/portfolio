@@ -1,0 +1,166 @@
+body{
+  max-width: 960px;
+  margin: 0 auto;
+}
+/*로고*/
+
+.category a{
+  color: #E5624C;
+}
+.title{
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #E5624C;
+  margin: 0px;
+  text-shadow: 1.5px 1.5px 2px #8F8F8F;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+/*본문제목*/
+h3{
+  font-family: 'Noto Serif KR', serif;
+  text-align: center;
+  margin-bottom: 0px;
+  color: #868686;
+  font-weight: normal;
+  margin-top: 15px;
+}
+
+body h1{
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 50px;
+  font-weight: bolder;
+  font-style: normal;
+  color: #3D3D3D;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+/*분류*/
+h6{
+  font-weight: 300;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 13px;
+  text-align: left;
+  color: #777777;
+  letter-spacing: 0.41px;
+  text-decoration: none;
+  margin-bottom: 40px;
+  margin-top: 0px;
+}
+/*링크수정*/
+.select{
+font-family: 'Noto Sans KR', sans-serif;
+font-size: 16px;
+color: #E5624C;
+letter-spacing: 0.41px;
+text-align: center;
+font-weight: 900;
+}
+
+body a{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 16px;
+  color: #E5624C;
+  letter-spacing: 0.41px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/*본문*/
+p{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: rgba(74,74,74,.84);
+  font-weight: 400;
+  line-height: 2.5;
+}
+h4{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 17px;
+  color: #3D3D3D;
+  letter-spacing: 0.3px;
+  margin-top: 55px;
+  margin-bottom: 25px;
+}
+#article a {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+#article{
+  padding: 6%;
+  padding-top: 0px;
+}
+#article img{
+  width: 80%;
+  margin-bottom: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.youtubewrap{
+  position: relative;
+  width:100%;
+  padding-bottom: 56.25%;
+}
+
+#article iframe{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  @media(min-width:760px){
+    .category{
+      text-align: center;
+      padding-top: 10px;
+    }
+    #category{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      margin: 0px;
+      margin-bottom: 15px;
+    }
+    h3{
+      font-size: 25px;
+    }
+    body h1{
+      font-size: 50px;
+    }
+  }
+
+  @media(max-width:760px){
+    .category{
+      display: none;
+    }
+    #category{
+      margin-left: 5px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+    }
+    body h1{
+      font-size: 35px;
+    }
+  }
+
+  @media(max-width:425px){
+    h3{
+      font-size: 14px;
+    }
+    body h1{
+      font-size: 25px;
+    }
+  }

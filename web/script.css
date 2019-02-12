@@ -140,6 +140,9 @@ h4{
     body h1{
       font-size: 50px;
     }
+    #category img{
+      display: none;
+    }
   }
 
   @media(max-width:760px){
@@ -153,6 +156,11 @@ h4{
     }
     body h1{
       font-size: 35px;
+    }
+    #category img{
+      float: right;
+      padding-top:10px;
+      margin-right:5%;
     }
   }
 
